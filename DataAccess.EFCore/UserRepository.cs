@@ -19,6 +19,7 @@ namespace DataAccess.EFCore
             _context.Users.Add(t);
             _context.SaveChanges();
             //throw new NotImplementedException();
+            ////okay ?
         }
 
         public void Delete(User id)
